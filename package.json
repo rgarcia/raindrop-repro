@@ -1,0 +1,24 @@
+{
+  "name": "raindrop-bug-repro",
+  "version": "1.0.0",
+  "description": "Minimal reproduction of raindrop-ai buffer clearing bug",
+  "main": "index.js",
+  "scripts": {
+    "repro": "tsx repro.ts",
+    "repro:real": "tsx repro.ts --use-real-images",
+    "repro:real:no-sleeps": "tsx repro.ts --use-real-images --no-sleeps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.4",
+  "dependencies": {
+    "@paralleldrive/cuid2": "^3.0.4",
+    "@types/node": "^24.10.2",
+    "dotenv": "^17.2.3",
+    "raindrop-ai": "0.0.69",
+    "sharp": "^0.34.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
